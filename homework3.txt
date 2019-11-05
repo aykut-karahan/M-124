@@ -1,0 +1,26 @@
+x=int(input("lütfen 1,2,3 rakamlarýndan birisini seçiniz:\n"))
+if x>3 or x<1:
+    print("lütfen programý yeniden baþlatýnýz!")
+elif x==1:
+        print("1.seçeneði se.tiniz , üçgenin hipotenüsü hesaplanacak.")
+        a=int(input("A kenarýnýn ölçüsü:"))
+        b=int(input("B kenarýnýn ölçüsü:"))
+        c=(a**2+b**2)**0.5
+        print("hipotenüs:,c")
+elif x==2:
+    o = int(input("Lütfen sayý giriniz"))
+    t =0 
+    while t<o :
+        t+1
+        print(t)
+elif x==3:
+    print("Gireceðiniz 6 numaranýn aritmetik ortalamasý hesaplanacak.") 
+    numara1=int(input("1.numarayý giriniz:"))
+    numara2=int(input("2.numarayý giriniz:"))
+    numara3=int(input("3.numarayý giriniz:"))
+    numara4=int(input("4.numarayý giriniz:"))
+    numara5=int(input("5.numarayý giriniz:"))
+    numara6=int(input("6.numarayý giriniz:"))
+    print("Girilen numaralar:",numara1,numara2,numara3,numara4,numara5,numara6)
+    sayýlarýn_aritmetik_sonucu=(numara1+numara2+numara3+numara4+numara5+numara6)/6
+    print("Numaralarýnýzýn aritmetik ortalamasý:",sayýlarýn_aritmetik_sonucu)
